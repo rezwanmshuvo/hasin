@@ -47,7 +47,7 @@ $fruits = ["mango","orange","banana","apple","lemon","peach"];
 					
 						<select style="height: 200px;" name="fruits[]" id="fruits" multiple>
 							<option value="" disabled selected>Select Fruits</option>
-							<?php displayOptions($fruits);?>
+							<?php displayOptions($fruits,$sfruits);?>
 						</select>
 						<button type="summit">Submit</button>
 				</form>
